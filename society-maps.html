@@ -1,0 +1,586 @@
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <title>
+   Zameen Societies
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&amp;display=swap" rel="stylesheet"/>
+  <style>
+   body {
+      font-family: "Inter", sans-serif;
+    }
+  </style>
+ </head>
+ <body class="bg-white text-gray-900">
+  <!-- Top green nav -->
+  <nav class="bg-[#2ea247] text-white text-xs sm:text-sm font-semibold">
+   <div class="max-w-[1280px] mx-auto flex flex-wrap items-center px-3 sm:px-6 h-auto sm:h-12 py-1 sm:py-0">
+    <ul class="flex flex-wrap sm:flex-nowrap items-center space-x-2 sm:space-x-6 text-[10px] sm:text-xs w-full sm:w-auto justify-center sm:justify-start">
+     <li class="flex items-center space-x-1 whitespace-nowrap">
+      <i class="fas fa-home text-base">
+      </i>
+      <span>
+       PROPERTIES
+      </span>
+     </li>
+     <li class="whitespace-nowrap">
+      PLOT FINDER
+     </li>
+     <li class="whitespace-nowrap">
+      AREA GUIDES
+     </li>
+     <li class="whitespace-nowrap">
+      BLOG
+     </li>
+     <li class="whitespace-nowrap">
+      MAPS
+     </li>
+     <li class="flex items-center space-x-1 whitespace-nowrap">
+      <span>
+       TOOLS
+      </span>
+      <span class="bg-[#ff4d4d] text-[9px] font-bold rounded px-1.5 py-[1px] leading-none">
+       NEW
+      </span>
+     </li>
+     <li class="flex items-center space-x-1 cursor-pointer relative group whitespace-nowrap">
+      <span>
+       MORE
+      </span>
+      <i class="fas fa-caret-down text-[10px]">
+      </i>
+     </li>
+    </ul>
+    <div class="mt-2 sm:mt-0 ml-auto flex flex-wrap sm:flex-nowrap items-center space-x-2 text-[9px] sm:text-xs w-full sm:w-auto justify-center sm:justify-end">
+     <div class="bg-[#d9f0d9] rounded text-[#2ea247] px-2 py-[2px] flex items-center space-x-1 whitespace-nowrap mb-1 sm:mb-0">
+      <span>
+       Property ID
+      </span>
+      <input class="bg-[#d9f0d9] text-[#2ea247] text-[9px] sm:text-xs outline-none w-12 sm:w-20" placeholder="Search" type="text"/>
+      <button aria-label="Search" class="bg-[#2ea247] text-white rounded px-1.5 py-[2px]">
+       <i class="fas fa-search text-xs">
+       </i>
+      </button>
+     </div>
+     <button class="bg-white text-[#2ea247] border border-[#2ea247] rounded px-2 py-1 text-[9px] sm:text-xs font-semibold flex items-center space-x-1 whitespace-nowrap mb-1 sm:mb-0">
+      <i class="fas fa-plus">
+      </i>
+      <span>
+       Add Property
+      </span>
+     </button>
+     <div class="text-white text-lg font-bold whitespace-nowrap" style="font-family: 'Jameel Noori Nastaleeq', serif;">
+      اردو
+     </div>
+     <div class="text-white text-lg font-bold whitespace-nowrap">
+      🇵🇰
+     </div>
+     <button aria-label="Settings" class="text-white text-lg whitespace-nowrap">
+      <i class="fas fa-cog">
+      </i>
+     </button>
+     <button aria-label="User Account" class="text-white text-lg whitespace-nowrap">
+      <i class="fas fa-user-circle">
+      </i>
+     </button>
+    </div>
+   </div>
+  </nav>
+  <!-- Second nav with logo and menu -->
+  <div class="max-w-[1280px] mx-auto px-3 sm:px-6 border-b border-gray-200">
+   <div class="flex flex-wrap sm:flex-nowrap items-center space-x-0 sm:space-x-6 py-3 sm:py-4">
+    <div class="flex items-center space-x-2 sm:space-x-3 flex-shrink-0 mb-2 sm:mb-0 w-full sm:w-auto justify-center sm:justify-start">
+     <img alt="zameen.com logo with tagline Har Pata, Humnai Pata Hai" class="w-[120px] h-[40px] object-contain" height="40" src="https://storage.googleapis.com/a1aa/image/3b5898d0-4ff2-4ef2-e28f-5bcf2f316638.jpg" width="120"/>
+    </div>
+    <nav class="flex flex-wrap justify-center sm:justify-start space-x-2 sm:space-x-8 text-[10px] sm:text-sm text-gray-500 font-semibold w-full sm:w-auto">
+     <a class="hover:text-gray-900 whitespace-nowrap" href="#">
+      BUY
+     </a>
+     <span class="text-gray-300 select-none">
+      ›
+     </span>
+     <a class="text-gray-900 font-bold whitespace-nowrap" href="#">
+      HOMES
+     </a>
+     <a class="hover:text-gray-900 whitespace-nowrap" href="#">
+      PLOTS
+     </a>
+     <a class="hover:text-gray-900 whitespace-nowrap" href="#">
+      COMMERCIAL
+     </a>
+     <span class="text-gray-300 select-none">
+      |
+     </span>
+     <a class="hover:text-gray-900 whitespace-nowrap" href="#">
+      RENT
+     </a>
+     <a class="hover:text-gray-900 whitespace-nowrap" href="#">
+      AGENTS
+     </a>
+     <a class="hover:text-gray-900 whitespace-nowrap" href="#">
+      NEW PROJECTS
+     </a>
+    </nav>
+   </div>
+  </div>
+  <!-- Hero section with text and illustration -->
+  <section class="bg-[#e6f2ea] relative overflow-hidden">
+   <div class="max-w-[1280px] mx-auto px-3 sm:px-6 py-10 sm:py-14 flex flex-col md:flex-row items-center md:items-start justify-between">
+    <div class="max-w-xl text-center md:text-left">
+     <h2 class="text-lg sm:text-xl font-semibold text-gray-800 mb-2">
+      Explore Societies in Pakistan
+     </h2>
+     <p class="text-gray-600 text-xs sm:text-sm max-w-[320px] sm:max-w-[400px] mx-auto md:mx-0">
+      Zameen provides you with a vibe of what every day looks like in different housing societies of Pakistan
+     </p>
+    </div>
+    <div class="mt-6 md:mt-0 md:w-[320px] lg:w-[400px] flex-shrink-0">
+     <img alt="Illustration showing a stylized map with buildings and roads representing housing societies in Pakistan" class="w-full h-auto" height="160" src="https://storage.googleapis.com/a1aa/image/f70f7b5c-8075-4722-ce64-3918badcc1e2.jpg" width="400"/>
+    </div>
+   </div>
+   <!-- Search bar below hero -->
+   <form aria-label="Search societies form" class="max-w-[1280px] mx-auto px-3 sm:px-6 -mt-6 sm:-mt-10 mb-10 sm:mb-14">
+    <div class="bg-white rounded-lg shadow-md flex flex-col sm:flex-row items-center divide-y sm:divide-y-0 sm:divide-x divide-gray-200">
+     <div class="flex-1 px-6 py-4 flex flex-col sm:flex-row sm:items-center sm:space-x-6">
+      <label class="text-xs text-gray-700 font-semibold mb-1 sm:mb-0 w-full sm:w-auto" for="city">
+       City
+      </label>
+      <input class="text-[#2ea247] text-sm font-semibold outline-none border border-transparent focus:border-[#2ea247] rounded w-full sm:w-40 cursor-default" id="city" readonly="" type="text" value="Lahore"/>
+     </div>
+     <div class="flex-1 px-6 py-4 flex flex-col sm:flex-row sm:items-center sm:space-x-6">
+      <label class="text-gray-500 text-xs font-normal mb-1 sm:mb-0 w-full sm:w-auto" for="society">
+       Society
+      </label>
+      <input class="text-gray-400 text-sm outline-none border border-gray-200 rounded w-full sm:w-72 px-2 py-1" id="society" placeholder="Search Societies" type="text"/>
+     </div>
+     <button aria-label="Search societies" class="bg-[#2ea247] text-white font-semibold rounded-lg px-6 py-3 m-4 sm:m-3 w-full sm:w-auto flex items-center justify-center" type="submit">
+      <i class="fas fa-search mr-2">
+      </i>
+      Search
+     </button>
+    </div>
+   </form>
+  </section>
+  <!-- Societies grid -->
+  <section class="max-w-[1280px] mx-auto px-3 sm:px-6 mb-16 grid grid-cols-2 sm:grid-cols-4 gap-4 sm:gap-6">
+   <!-- Society card 1 -->
+   <div class="relative rounded-lg overflow-hidden cursor-pointer" style="aspect-ratio: 4 / 3">
+    <img alt="Bahria Town Lahore with Eiffel Tower replica at sunset" class="w-full h-full object-cover" height="300" src="https://storage.googleapis.com/a1aa/image/aafd9bbd-7f30-4bb1-71f0-7dcc74f8eac7.jpg" width="400"/>
+    <div class="absolute top-3 left-3 text-white font-bold text-sm sm:text-base drop-shadow-lg">
+     Bahria Town
+    </div>
+    <div class="absolute top-7 left-3 text-white text-xs sm:text-sm drop-shadow-lg">
+     Lahore
+    </div>
+    <div class="absolute bottom-3 left-3 text-white text-xs sm:text-sm font-semibold drop-shadow-lg flex items-center space-x-1">
+     <span>
+      Explore
+     </span>
+     <i class="fas fa-chevron-right">
+     </i>
+    </div>
+   </div>
+   <!-- Society card 2 -->
+   <div class="relative rounded-lg overflow-hidden cursor-pointer" style="aspect-ratio: 4 / 3">
+    <img alt="Park View City Lahore entrance with fountain and signboard" class="w-full h-full object-cover" height="300" src="https://storage.googleapis.com/a1aa/image/1464bb94-1b37-4abf-633a-a28c2149a377.jpg" width="400"/>
+    <div class="absolute top-3 left-3 text-white font-bold text-sm sm:text-base drop-shadow-lg">
+     Park View City
+    </div>
+    <div class="absolute top-7 left-3 text-white text-xs sm:text-sm drop-shadow-lg">
+     Lahore
+    </div>
+    <div class="absolute bottom-3 left-3 text-white text-xs sm:text-sm font-semibold drop-shadow-lg flex items-center space-x-1">
+     <span>
+      Explore
+     </span>
+     <i class="fas fa-chevron-right">
+     </i>
+    </div>
+   </div>
+   <!-- Society card 3 -->
+   <div class="relative rounded-lg overflow-hidden cursor-pointer" style="aspect-ratio: 4 / 3">
+    <img alt="Lake City Lahore with monument and flag" class="w-full h-full object-cover" height="300" src="https://storage.googleapis.com/a1aa/image/27063ab0-b690-4161-727b-eea8509f6fc3.jpg" width="400"/>
+    <div class="absolute top-3 left-3 text-white font-bold text-sm sm:text-base drop-shadow-lg">
+     Lake City
+    </div>
+    <div class="absolute top-7 left-3 text-white text-xs sm:text-sm drop-shadow-lg">
+     Lahore
+    </div>
+    <div class="absolute bottom-3 left-3 text-white text-xs sm:text-sm font-semibold drop-shadow-lg flex items-center space-x-1">
+     <span>
+      Explore
+     </span>
+     <i class="fas fa-chevron-right">
+     </i>
+    </div>
+   </div>
+   <!-- Society card 4 -->
+   <div class="relative rounded-lg overflow-hidden cursor-pointer" style="aspect-ratio: 4 / 3">
+    <img alt="Bahria Orchard Lahore with dome shaped building and green lawn" class="w-full h-full object-cover" height="300" src="https://storage.googleapis.com/a1aa/image/a0557006-eed0-420c-90df-e49e501713c5.jpg" width="400"/>
+    <div class="absolute top-3 left-3 text-white font-bold text-sm sm:text-base drop-shadow-lg">
+     Bahria Orchard
+    </div>
+    <div class="absolute top-7 left-3 text-white text-xs sm:text-sm drop-shadow-lg">
+     Lahore
+    </div>
+    <div class="absolute bottom-3 left-3 text-white text-xs sm:text-sm font-semibold drop-shadow-lg flex items-center space-x-1">
+     <span>
+      Explore
+     </span>
+     <i class="fas fa-chevron-right">
+     </i>
+    </div>
+   </div>
+   <!-- Society card 5 -->
+   <div class="relative rounded-lg overflow-hidden cursor-pointer" style="aspect-ratio: 4 / 3">
+    <img alt="Gulberg Lahore tall building with blue sky" class="w-full h-full object-cover" height="300" src="https://storage.googleapis.com/a1aa/image/3d10fbc0-ecbc-40f7-c6fe-228588c09a64.jpg" width="400"/>
+    <div class="absolute top-3 left-3 text-white font-bold text-sm sm:text-base drop-shadow-lg">
+     Gulberg
+    </div>
+    <div class="absolute top-7 left-3 text-white text-xs sm:text-sm drop-shadow-lg">
+     Lahore
+    </div>
+    <div class="absolute bottom-3 left-3 text-white text-xs sm:text-sm font-semibold drop-shadow-lg flex items-center space-x-1">
+     <span>
+      Explore
+     </span>
+     <i class="fas fa-chevron-right">
+     </i>
+    </div>
+   </div>
+  </section>
+  <!-- Info section with 3 columns -->
+  <section class="max-w-[1280px] mx-auto px-3 sm:px-6 mb-16 text-center sm:text-left">
+   <h3 class="text-center font-semibold text-base sm:text-lg mb-1">
+    Find the Perfect Place to live in!
+   </h3>
+   <p class="text-gray-500 text-xs sm:text-sm max-w-[600px] mx-auto sm:mx-0 mb-10">
+    Stop wondering how your life will be like in a housing society &amp; make informed decisions with Zameen Area Guides
+   </p>
+   <div class="grid grid-cols-1 sm:grid-cols-3 gap-8 max-w-[900px] mx-auto sm:mx-0">
+    <!-- Item 1 -->
+    <div>
+     <img alt="Icon representing society maps with a location pin on a map" class="mx-auto sm:mx-0 mb-3" height="60" src="https://storage.googleapis.com/a1aa/image/b7f8ab75-1f0e-4553-5565-df8f4b0c630d.jpg" width="60"/>
+     <h4 class="font-semibold text-sm mb-1">
+      Take a look inside society maps
+     </h4>
+     <p class="text-gray-600 text-xs sm:text-sm max-w-[250px] mx-auto sm:mx-0">
+      Conveniently browse through detailed maps of all the societies established across the country, featuring master plans, road networks, and plots.
+     </p>
+    </div>
+    <!-- Item 2 -->
+    <div>
+     <img alt="Icon representing local amenities with map markers and icons" class="mx-auto sm:mx-0 mb-3" height="60" src="https://storage.googleapis.com/a1aa/image/f2c5aaec-1061-4f89-8d3d-d91ef63ec85d.jpg" width="60"/>
+     <h4 class="font-semibold text-sm mb-1">
+      Best of Local Amenities
+     </h4>
+     <p class="text-gray-600 text-xs sm:text-sm max-w-[250px] mx-auto sm:mx-0">
+      Surf through the ‘hot spots’ that the locals love to flock to. Discover top places including schools, hospitals, parks, grocery stores, and much more.
+     </p>
+    </div>
+    <!-- Item 3 -->
+    <div>
+     <img alt="Icon representing houses and plot prices with price tags" class="mx-auto sm:mx-0 mb-3" height="60" src="https://storage.googleapis.com/a1aa/image/fe6e7ad6-8ea6-430e-4150-3ff4f5317410.jpg" width="60"/>
+     <h4 class="font-semibold text-sm mb-1">
+      Houses &amp; Plot Prices
+     </h4>
+     <p class="text-gray-600 text-xs sm:text-sm max-w-[250px] mx-auto sm:mx-0">
+      Find thousands of listings of low price houses and plots for sale in your desired society. Check out these affordable houses for rent and commercial properties for sale.
+     </p>
+    </div>
+   </div>
+  </section>
+  <!-- Most Viewed Societies -->
+  <section class="max-w-[1280px] mx-auto px-3 sm:px-6 mb-10">
+   <h4 class="font-semibold mb-2">
+    Most Viewed Societies
+   </h4>
+   <nav class="flex flex-wrap gap-4 text-xs sm:text-sm font-semibold mb-2">
+    <button class="text-[#2ea247] border-b-2 border-[#2ea247] pb-1 whitespace-nowrap">
+     Lahore
+    </button>
+    <button class="text-gray-700 whitespace-nowrap">
+     Karachi
+    </button>
+    <button class="text-gray-700 whitespace-nowrap">
+     Islamabad
+    </button>
+    <button class="text-gray-700 whitespace-nowrap">
+     Rawalpindi
+    </button>
+    <button class="text-gray-700 whitespace-nowrap">
+     Faisalabad
+    </button>
+    <button class="text-gray-700 whitespace-nowrap">
+     Peshawar
+    </button>
+   </nav>
+   <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center text-xs sm:text-sm text-gray-400 mb-2 space-y-2 sm:space-y-0">
+    <span class="font-semibold text-gray-700 whitespace-nowrap">
+     Most viewed societies in Lahore
+    </span>
+    <a class="text-[#2ea247] hover:underline text-xs sm:text-sm font-normal flex items-center space-x-1 whitespace-nowrap" href="#">
+     <span>
+      View Lahore Area Guide
+     </span>
+     <i class="fas fa-arrow-up-right-from-square text-[10px]">
+     </i>
+    </a>
+   </div>
+   <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 text-xs sm:text-sm text-[#2ea247] font-semibold">
+    <span class="flex items-center space-x-1 whitespace-nowrap">
+     <i class="fas fa-arrow-up-right-from-square text-[10px]">
+     </i>
+     <span>
+      DHA Defence
+     </span>
+    </span>
+    <span class="flex items-center space-x-1 whitespace-nowrap">
+     <i class="fas fa-arrow-up-right-from-square text-[10px]">
+     </i>
+     <span>
+      Park View City
+     </span>
+    </span>
+    <span class="flex items-center space-x-1 whitespace-nowrap">
+     <i class="fas fa-arrow-up-right-from-square text-[10px]">
+     </i>
+     <span>
+      Lahore Smart City
+     </span>
+    </span>
+    <span class="flex items-center space-x-1 whitespace-nowrap">
+     <i class="fas fa-arrow-up-right-from-square text-[10px]">
+     </i>
+     <span>
+      Marina Sports City
+     </span>
+    </span>
+   </div>
+  </section>
+  <!-- Useful Links -->
+  <section class="max-w-[1280px] mx-auto px-3 sm:px-6 mb-16 grid grid-cols-1 sm:grid-cols-3 gap-6 text-xs sm:text-sm font-semibold">
+   <div class="space-y-2">
+    <span class="text-gray-900">
+     Useful Links
+    </span>
+    <a class="text-[#2ea247] flex items-center space-x-1 whitespace-nowrap" href="#">
+     <i class="fas fa-arrow-up-right-from-square text-[10px]">
+     </i>
+     <span>
+      Lahore Smart City
+     </span>
+    </a>
+    <a class="text-[#2ea247] flex items-center space-x-1 whitespace-nowrap" href="#">
+     <i class="fas fa-arrow-up-right-from-square text-[10px]">
+     </i>
+     <span>
+      Al-Noor Orchard
+     </span>
+    </a>
+    <a class="text-[#2ea247] flex items-center space-x-1 whitespace-nowrap" href="#">
+     <i class="fas fa-arrow-up-right-from-square text-[10px]">
+     </i>
+     <span>
+      Lake City Lahore
+     </span>
+    </a>
+   </div>
+   <div class="space-y-2">
+    <span class="invisible">
+     Useful Links
+    </span>
+    <a class="text-[#2ea247] flex items-center space-x-1 whitespace-nowrap" href="#">
+     <i class="fas fa-arrow-up-right-from-square text-[10px]">
+     </i>
+     <span>
+      Park View City Lahore
+     </span>
+    </a>
+    <a class="text-[#2ea247] flex items-center space-x-1 whitespace-nowrap" href="#">
+     <i class="fas fa-arrow-up-right-from-square text-[10px]">
+     </i>
+     <span>
+      LDA City Lahore
+     </span>
+    </a>
+    <a class="text-[#2ea247] flex items-center space-x-1 whitespace-nowrap" href="#">
+     <i class="fas fa-arrow-up-right-from-square text-[10px]">
+     </i>
+     <span>
+      Gulberg Greens
+     </span>
+    </a>
+   </div>
+   <div class="space-y-2">
+    <span class="invisible">
+     Useful Links
+    </span>
+    <a class="text-[#2ea247] flex items-center space-x-1 whitespace-nowrap" href="#">
+     <i class="fas fa-arrow-up-right-from-square text-[10px]">
+     </i>
+     <span>
+      Park View City Islamabad
+     </span>
+    </a>
+    <a class="text-[#2ea247] flex items-center space-x-1 whitespace-nowrap" href="#">
+     <i class="fas fa-arrow-up-right-from-square text-[10px]">
+     </i>
+     <span>
+      DHA Valley
+     </span>
+    </a>
+   </div>
+  </section>
+  <!-- App promo banner -->
+  <section class="max-w-[1280px] mx-auto px-3 sm:px-6 mb-10 bg-[#f0f4f0] rounded-lg py-6 flex flex-col sm:flex-row items-center justify-between space-y-6 sm:space-y-0">
+   <div class="flex flex-col space-y-1 max-w-xs sm:max-w-none text-center sm:text-left">
+    <h3 class="text-[#2ea247] font-semibold text-lg sm:text-xl">
+     Get the Zameen App
+    </h3>
+    <p class="text-xs font-bold">
+     Buy and Rent Property faster and better using our app.
+    </p>
+   </div>
+   <div class="flex-shrink-0">
+    <img alt="Mobile phone showing Zameen app interface with property search and listings" class="w-[280px] h-auto mx-auto sm:mx-0" height="120" src="https://storage.googleapis.com/a1aa/image/249fbdd6-6002-4f4a-924b-b7d93312e23f.jpg" width="280"/>
+   </div>
+   <div class="flex flex-col items-center space-y-2 text-xs font-bold text-gray-700">
+    <div class="flex space-x-2">
+     <img alt="Download on the App Store badge" class="h-[25px] w-auto" height="25" src="https://storage.googleapis.com/a1aa/image/820b8cf5-d707-4818-6b25-540f67dd1092.jpg" width="80"/>
+     <img alt="Get it on Google Play badge" class="h-[25px] w-auto" height="25" src="https://storage.googleapis.com/a1aa/image/2ba36ea9-3864-46b2-f708-ac65f6831e19.jpg" width="80"/>
+    </div>
+    <div class="flex items-center space-x-2">
+     <span>
+      Scan the QR code to get the app
+     </span>
+     <img alt="QR code to download Zameen app" class="w-[50px] h-[50px]" height="50" src="https://storage.googleapis.com/a1aa/image/f00ec844-4daa-49ab-de5d-6d61f032fc3d.jpg" width="50"/>
+    </div>
+   </div>
+  </section>
+  <!-- Our Home Partners -->
+  <section class="max-w-[1280px] mx-auto px-3 sm:px-6 mb-10 bg-gray-100 py-4">
+   <h5 class="text-sm font-semibold mb-3">
+    Our Home Partners
+   </h5>
+   <img alt="Home partners logo HBFC" class="h-10 w-auto mx-auto sm:mx-0" height="40" src="https://storage.googleapis.com/a1aa/image/72886726-27ab-4b0c-4e97-29a593fe171a.jpg" width="100"/>
+  </section>
+  <!-- Footer -->
+  <footer class="bg-[#222222] text-gray-300 text-xs sm:text-sm">
+   <div class="max-w-[1280px] mx-auto px-3 sm:px-6 py-10 grid grid-cols-1 sm:grid-cols-4 gap-8">
+    <div class="space-y-1">
+     <h6 class="text-white font-semibold mb-2">
+      Company
+     </h6>
+     <a class="block hover:underline" href="#">
+      About Us
+     </a>
+     <a class="block hover:underline" href="#">
+      Contact Us
+     </a>
+     <a class="block hover:underline" href="#">
+      Jobs
+     </a>
+     <a class="block hover:underline" href="#">
+      Help &amp; Support
+     </a>
+     <a class="block hover:underline" href="#">
+      Advertise On Zameen
+     </a>
+     <a class="block hover:underline" href="#">
+      Privacy Policy
+     </a>
+     <a class="block hover:underline" href="#">
+      Terms Of Use
+     </a>
+    </div>
+    <div class="space-y-1">
+     <h6 class="text-white font-semibold mb-2">
+      Connect
+     </h6>
+     <a class="block hover:underline" href="#">
+      Blog
+     </a>
+     <a class="block hover:underline" href="#">
+      News
+     </a>
+     <a class="block hover:underline" href="#">
+      Forum
+     </a>
+     <a class="block hover:underline" href="#">
+      Expo
+     </a>
+     <a class="block hover:underline" href="#">
+      Real Estate Agents
+     </a>
+     <a class="block hover:underline" href="#">
+      Add Property
+     </a>
+    </div>
+    <div class="space-y-1">
+     <h6 class="text-white font-semibold mb-2">
+      Head Office
+     </h6>
+     <div class="flex items-start space-x-2">
+      <i class="fas fa-map-marker-alt mt-1">
+      </i>
+      <address class="not-italic text-gray-400 text-xs sm:text-sm leading-tight">
+       Pearl One, 94-B/1, MM Alam Road,
+       <br/>
+       Gulberg III, Lahore, Pakistan.
+      </address>
+     </div>
+     <div class="flex items-center space-x-2 text-gray-400 text-xs sm:text-sm">
+      <i class="fas fa-phone-alt">
+      </i>
+      <span>
+       0800-ZAMEEN (92633), Monday To Sunday 9AM to 6PM
+      </span>
+     </div>
+     <div class="flex items-center space-x-2 text-gray-400 text-xs sm:text-sm">
+      <i class="fas fa-envelope">
+      </i>
+      <a class="hover:underline" href="mailto:info@zameen.com">
+       Email Us
+      </a>
+     </div>
+    </div>
+    <div class="space-y-2">
+     <h6 class="text-white font-semibold mb-2">
+      Roshan Digital Account
+     </h6>
+     <img alt="Roshan Digital Account logo" class="mb-2 mx-auto sm:mx-0" height="40" src="https://storage.googleapis.com/a1aa/image/35c7bd4d-40ea-49f0-d338-058353560c6e.jpg" width="80"/>
+     <div class="flex justify-center sm:justify-start space-x-3 text-lg text-white">
+      <a aria-label="Facebook" class="hover:text-[#3b5998]" href="#">
+       <i class="fab fa-facebook-f">
+       </i>
+      </a>
+      <a aria-label="Instagram" class="hover:text-[#e4405f]" href="#">
+       <i class="fab fa-instagram">
+       </i>
+      </a>
+      <a aria-label="YouTube" class="hover:text-[#ff0000]" href="#">
+       <i class="fab fa-youtube">
+       </i>
+      </a>
+      <a aria-label="Twitter" class="hover:text-[#1da1f2]" href="#">
+       <i class="fab fa-twitter">
+       </i>
+      </a>
+      <a aria-label="LinkedIn" class="hover:text-[#0077b5]" href="#">
+       <i class="fab fa-linkedin-in">
+       </i>
+      </a>
+     </div>
+    </div>
+   </div>
+   <div class="max-w-[1280px] mx-auto px-3 sm:px-6 pb-6 text-gray-500 text-xs sm:text-sm select-none text-center sm:text-left">
+    © Copyright 2007 – 2025 Zameen.com. All Rights Reserved
+   </div>
+  </footer>
+ </body>
+</html>
